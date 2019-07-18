@@ -11,6 +11,9 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.example.movieapp.model.Genre;
+import com.example.movieapp.model.Movie;
+import com.example.movieapp.service.OnMoviesClickCallback;
 
 import java.util.ArrayList;
 import java.util.List;

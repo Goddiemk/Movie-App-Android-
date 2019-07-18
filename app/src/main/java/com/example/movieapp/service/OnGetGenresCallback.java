@@ -1,4 +1,4 @@
-package com.example.movieapp;
+package com.example.movieapp.service;
 
 import com.example.movieapp.model.Genre;
 

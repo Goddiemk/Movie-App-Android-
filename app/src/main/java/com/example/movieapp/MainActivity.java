@@ -14,6 +14,13 @@ import android.widget.PopupMenu;
 import android.widget.Toast;
 import android.support.v7.widget.Toolbar;
 
+import com.example.movieapp.model.Genre;
+import com.example.movieapp.model.Movie;
+import com.example.movieapp.service.MovieRepository;
+import com.example.movieapp.service.OnGetGenresCallback;
+import com.example.movieapp.service.OnGetMoviesCallback;
+import com.example.movieapp.service.OnMoviesClickCallback;
+
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {

@@ -15,6 +15,15 @@ import android.widget.Toast;
 
 import com.bumptech.glide.Glide;
 import com.bumptech.glide.request.RequestOptions;
+import com.example.movieapp.model.Genre;
+import com.example.movieapp.model.Movie;
+import com.example.movieapp.model.Review;
+import com.example.movieapp.model.Trailer;
+import com.example.movieapp.service.MovieRepository;
+import com.example.movieapp.service.OnGetGenresCallback;
+import com.example.movieapp.service.OnGetMovieCallback;
+import com.example.movieapp.service.OnGetReviewsCallback;
+import com.example.movieapp.service.OnGetTrailersCallback;
 
 import java.util.ArrayList;
 import java.util.List;
