@@ -1,8 +1,8 @@
 package com.example.movieapp;
 
-import java.util.List;
+import com.example.movieapp.model.Movie;
 
-import retrofit2.Call;
+import java.util.List;
 
 public interface OnGetMoviesCallback {
 

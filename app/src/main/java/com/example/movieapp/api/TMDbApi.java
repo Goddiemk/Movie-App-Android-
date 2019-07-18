@@ -1,5 +1,11 @@
 package com.example.movieapp;
 
+import com.example.movieapp.model.GenreResponse;
+import com.example.movieapp.model.Movie;
+import com.example.movieapp.model.MovieResponse;
+import com.example.movieapp.model.ReviewResponse;
+import com.example.movieapp.model.TrailerResponse;
+
 import retrofit2.Call;
 import retrofit2.http.GET;
 import retrofit2.http.Path;

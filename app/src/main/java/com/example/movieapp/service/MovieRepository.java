@@ -1,7 +1,16 @@
 package com.example.movieapp;
 
-import android.support.annotation.NonNull;
-import android.util.Log;
+import com.example.movieapp.api.TMDbApi;
+import com.example.movieapp.model.GenreResponse;
+import com.example.movieapp.model.Movie;
+import com.example.movieapp.model.MovieResponse;
+import com.example.movieapp.model.ReviewResponse;
+import com.example.movieapp.model.TrailerResponse;
+import com.example.movieapp.service.OnGetGenresCallback;
+import com.example.movieapp.service.OnGetMovieCallback;
+import com.example.movieapp.service.OnGetMoviesCallback;
+import com.example.movieapp.service.OnGetReviewsCallback;
+import com.example.movieapp.service.OnGetTrailersCallback;
 
 import retrofit2.Call;
 import retrofit2.Callback;
